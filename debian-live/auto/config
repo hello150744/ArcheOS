@@ -19,10 +19,10 @@ lb config noauto \
     --apt-http-proxy 'http://localhost:3142/' \
     --mirror-binary "http://ftp.it.debian.org/debian" \
     --mirror-binary-security "http://security.debian.org/" \
-    --mirror-bootstrap "http://borges.fabfur.it:8080" \
+    --mirror-bootstrap "http://apt.fabfur.it" \
     --mirror-chroot  "http://localhost:3142/ftp.de.debian.org/debian" \
     --mirror-chroot-security "http://security.debian.org/" \
-    --parent-mirror-bootstrap "http://borges.fabfur.it:8080" \
+    --parent-mirror-bootstrap "http://apt.fabfur.it" \
     --iso-application "ArcheOS" \
     --iso-publisher "ArcheOS Team" \
     --iso-volume "ArcheOS 5 Theodoric" \
